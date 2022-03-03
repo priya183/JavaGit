@@ -1,0 +1,64 @@
+***Variable:
+Variable is the name of memory location.
+It is user define name which is given by user used to store the different types of value.
+**Type:
+1.instance variable:The variable which is declared inside the class but outside the method.
+2.Local variable:The variable which is declared inside the method body or inside the method parameter.
+3Static variable:The variable which declared using static keyword.
+************************************************************************
+
+***Method
+The group of code which take the input from user, process it and gives output,it is nothing but the nethod.
+Method runs only when it calls.It is created only within a class.
+Type:
+1.UserDefined:A method which is define by user.
+2.Predefined Method:It is method which already define in the java library.
+**Why we use it?
+1.decrease line of code.
+2.It increase readability.
+3.Repeatation of process.
+
+***********************************************************************
+
+***Super keyword:
+It refers the object of the super/parent class
+It is used when we wan=t to call the variable,method and construct of super class using sub class object.
+Note:1.When the variable and method name of super and sub class is same that time it can be used.
+2.to avoid the confusion between super and sub class variable and method which having same name we should use super keyword.
+
+***********************************************************************
+***This keyword
+It refers to the current object inside method or constructor.
+1.Object of the class and this keyword reffers to the current object reference of the class.
+2.When the instance and local variable are same we use this keyword at that time.
+3.it is used when we called default constructor of the class.
+4.It is also used to call parameterize constructor
+
+*********************************************************************
+***Inheritance:
+When we construct the new class from the existing class in such a way new class will access all
+ the features and properties of the existing class is called inheritance.
+ 
+ *************************************************************************
+ ***Abstraction:
+ The process of hiding the implementation details from user and only highlighting the set of services provided to the user
+ Abstraction is achieved by Abstract class and Interface
+ 
+ ***********************************************************************
+ 
+ ***Class:Class is a collection of objects it doesn't take any space on memory,class is also called blueprint or logical entity.
+ Type:
+ 1.Predefined class:Scanner , System,String
+ 2.user-Defined:Student,Test,A
+ 
+ ***************************************************************************
+ ***Object:
+ It is an instance of the class that executes the class.
+ Once the object is created,it takes the space like other variable in memory
+ 
+ ****************************************************************************
+ 
+ ***Typecasting:Converting one datatype into another datatype
+ type:
+ 1.Explicite:Done by user,bydefauit explicite type casting not allow by compiler
+ 2.Implicite:automatically done by compiler
